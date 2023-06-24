@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    
+     font-weight: bold;
+  
+    
+     }
+
+ .header{
+    background-image: url("image/bg header.jpg");
+    width: auto;
+    height: auto;
+}  
+
+
+nav div ul li{    
+    margin: 10px;
+    padding: 0;
+    border: 0; 
+   list-style-type: none;
+   display:right; 
+   align-items: center;
+   justify-content: space-between; 
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+   color: rgb(231, 8, 183)
+
+
+  }
+  nav div ul li:hover
+  {
+    color: rgb(79, 36, 199);
+    transform: scale(1.5);
+  }
+nav div img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width :300px;
+    height: 250px;
+  }
+  nav h1{
+    font-size: 50px;
+    margin: 90px;
+    color: rgb(5, 35, 73);
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px #2fc7bf;
+    
+    
+  }
+  
+  section{
+    display: flex;
+   
+    
+    
+  }
+  section div{
+    height: 50%;
+    width: 50%;
+    padding: 0;
+   
+    margin: 10px;
+
+  }
+ section h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(5, 35, 73);
+   }
+ section  div p{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: lighter;
+   }
+  
+  
+  .front{
+    
+   display: flex;
+   
+   border: 20px solid red;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+     margin: 10px;
+  }
+  
+  .img :hover{
+      transform: scale(1.5);
+
+  }
+  .img{
+
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin: 40px ;
+    
+   
+    padding: 0;
+    display: right; 
+    align-items: center;
+    justify-content:space-between ;
+     text-align: center;
+     
+  }
+  div img{
+    width: 200px;
+    height: 230px;
+    border: black 1px solid;
+  }
+  
+  div h2{
+    
+    color: rgb(37, 5, 21);
+    font-size: 20px;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    
+  }
+  div{
+    align-items: center;
+    justify-content:space-between ;
+     text-align: center;
+  }
+  
